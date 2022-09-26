@@ -77,8 +77,8 @@ col_extract = []
 #추출된 기본 색상을 표시합니다.
 for count, col in main_colors:
     color = RGB_to_Hex(col)
-print("识别图片中颜色占比最大：" + color)
-print("相近颜色：" + closest_color(col))
+print("이미지에서 가장 큰 비율의 색상 식별：" + color)
+print("비슷한 색：" + closest_color(col))
 col_extract.append([col[i] / 255 for i in range(3)])
 
 # 추출된 기본 색상을 표시합니다.
