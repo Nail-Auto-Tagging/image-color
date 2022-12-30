@@ -1,5 +1,2 @@
 # image-color
-color
-#필요한 프로그램 환경
-pychram-professional-2019.3.5.exe
-python-3.6.1-amd64.exe
+손톱 이미지에서 가장 많이 차지하고 있는 컬러를 판단
